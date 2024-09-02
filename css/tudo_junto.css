@@ -1,0 +1,90 @@
+body{
+    font-family:'press start 2p', cursive;
+    margin: 0; /* Remove a margem ao redor do body */
+    padding: 0; /* Remove o padding ao redor do body */
+    display: grid; /* Define o layout como grid */
+    grid-template-rows: auto 1fr auto; /* Cria três linhas: duas com altura automática e uma que preenche o restante do espaço */
+    min-height: 100vh; /* Garante que a altura mínima seja 100% da altura visível da tela */
+    background-color: #228ae0e7 !important; /* Define a cor de fundo */
+    color: #000000; /* Define a cor do texto*/
+    border: 5px solid #000000
+  }
+
+  header{
+    background-color: #e77b22; /* Define a cor de fundo do cabeçalho*/
+    display: flex; /* Usa o layout flexbox para o cabeçalho */
+    justify-content: center; /* Espaça os itens uniformemente entre as extremidades */
+    align-items: center ; /* Alinha os itens verticalmente ao centro */
+    padding: 10px 20px; /* Adiciona espaço interno ao cabeçalho */
+    height: 90px; /* Define a altura do cabeçalho */
+    box-sizing: border-box;
+    outline: 5px solid #000000 ;
+    position: relative;
+}
+.logo{
+    height: 100%; /* Ajusta a altura da imagem para preencher o cabeçalho */
+    max-height: 50px; /* Define uma altura máxima para a imagem */
+    width: auto; /* Mantém a proporção da imagem */
+}
+main{
+    color: #ffffff; /* Define a cor do texto*/
+    display: grid; /* Define o layout principal como grid */
+    grid-template-columns: 1fr; /* Cria uma única coluna de largura flexível */
+    gap: 20px; /* Adiciona espaço entre os itens da grid */
+    justify-items: center; /* Centraliza os itens dentro das células da grid */
+    text-align: center; /* Alinha o texto ao centro dos itens */
+    padding: 20px; /* Adiciona espaço interno ao main */
+}
+
+nav ul {
+    display: flex; /* Usa o layout flexbox para a lista de navegação */
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding da lista */
+    margin: 0; /* Remove a margem da lista */
+}
+
+nav ul li {
+    margin-right: 70px; /* Adiciona um espaço à direita de cada item da lista */
+}
+
+nav ul li a {
+    color: #ffffff; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 1.2em; /* Define o tamanho da fonte dos links */
+
+}
+.maraco img {
+    height: 100%; /* Ajusta a altura da imagem para preencher o cabeçalho */
+    max-height: 50px; /* Define uma altura máxima para a imagem */
+    width: 50px; /* Mantém a proporção da imagem */    
+}
+
+form{
+background-color: #7d199b;
+padding: 20px;
+border-radius: 8px;
+width: 100%;
+max-width: 600px;
+border: 5px solid #000000
+}
+
+
+
+
+
+
+footer{
+    background-color: #42c537;
+    text-decoration: none;
+    text-align: center;
+    outline: 5px solid #000000 ;
+}
+@media (min-width: 360px){
+    form{    
+        background-color: #7d199b;
+        padding: 20px;
+        border-radius: 8px;
+        width: 50%;
+        border: 5px solid #000000  
+}
+}
