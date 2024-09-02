@@ -1,5 +1,5 @@
 body{
-    font-family:'press start 2p', cursive;
+    font-family:'press start 2p', cursive !important;
     margin: 0; /* Remove a margem ao redor do body */
     padding: 0; /* Remove o padding ao redor do body */
     display: grid; /* Define o layout como grid */
